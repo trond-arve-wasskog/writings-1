@@ -3,11 +3,11 @@ Autonomous teams – Organizing for Speed and Quality
 
 Lead time is the time it takes you to complete a process, for instance from conceiving an idea to actually having something implemented in production. Shortening this lead time makes everything better. If you think it doesn't apply to you you're probably ripe for being naturally selected in really really bad way.
 
-For innovation to work optimally learning has to be as time and cost efficient as possible. Increase lead time and you'll reduce your learning rate. Increase deployment costs and you'll reduce the number of hypotheses you can run for the same amount of money, thereby reducing the number of features you can try out before running out of money or having your steering committee lose their patience and kicking your butt out on the street.
+For innovation to work optimally learning has to be as time and cost efficient as possible. Increase lead time and you'll reduce your learning rate. Increase deployment costs and you'll reduce the number of hypotheses you can run for the same amount of money, thereby reducing the number of features you can try out before running out of money or having your steering committee lose their patience and kicking your butt out on the street. TAW: Du vinkler mot innovasjon, men jeg tenker det er minst like relevant for å levere _verdi_. Altså at det ikke kun er relevant for innovasjon, men for alle team som leverer produkter.
 
-This blogpost highlights some common organizational pitfalls that negatively impacts your ability to deliver value to your customers and what you should do instead.
+This blog post highlights some common organizational pitfalls that negatively impacts your ability to deliver value to your customers and what you should do instead.
 
-An organization can either optimize a value stream for _cost_ or _lead time_, not both. Since a low lead time makes more sense if you'd like to make innovation easier I'm going to assume lead time is your cup of tea.
+An organization can either optimize a value stream for _cost_ or _lead time_, not both. Since a low lead time makes more sense if you'd like to make innovation easier I'm going to assume lead time is your cup of tea. TAW: Denne henger litt i lufta for min del. Kan ikke også redusert ledetid også gi lavere kost? Kan du eventuelt eksemplisifisere? 
 
 
 Getting rid of feature handovers
@@ -19,12 +19,13 @@ Different teams have different goals and backlogs – it's why we split our orga
 
 ![Bad feedbackloops](img/un-agile-org.png)
 
-As long as you divide your people into teams you're going to have silos and suboptimization. Just by existing, teams act as barriers to communication and cooperation (this is due to them having different goals than other teams, as we stated above). [1] What you need to do is to _organize your teams in a way that causes suboptimization to be as optimal as possible_. If you're optimizing for speed and agility, you want to reduce the number of handovers needed to deliver customer value and to test hypotheses. If that means increasing the number of handovers needed to implement _shared services_, so be it.
+As long as you divide your people into teams you're going to have silos and suboptimization. Just by existing, teams act as barriers to communication and cooperation (this is due to them having different goals than other teams, as we stated above). [1] What you need to do is to _organize your teams in a way that causes suboptimization to be as optimal as possible_. If you're optimizing for speed and agility, you want to reduce the number of handovers needed to deliver customer value and to test hypotheses. If that means increasing the number of handovers needed to implement _shared services_, so be it. TAW: Henger litt i løse lufta, henvis til at du kommer tilbake til denne?
 
 What you should do is to organize your teams around _business outcomes_ and not competencies or even applications. [2] A business outcome is in itself valuable to a business. E.g. IT-operations or security solutions in themselves aren't valuable. They're only valuable because they help you deliver e.g. an internet store or a solution that let people apply for universities.
 
 If you organize around competencies or applications you're most likely going to have a significant amount of handovers per feature you want implemented. If you organize around business outcomes – one outcome, one team – you'll avoid feature handovers. You might still have to endure handovers due to _shared services_ (e.g. a common style guide or common SSO solution), but such work doesn't have to be a part of every feature you implement, like frontend or database work probably will.
 
+TAW: Dette er jo Conways Law, men det er kanskje bevisst at du ikke refererer til den?
 
 Shared services
 ---------------
@@ -33,7 +34,7 @@ Sometimes we need to get something done with a shared service to deliver value. 
 
 The people maintaining these shared services doesn't just hang around and wait for your every command. They too have backlogs and priorities different from your own. Therefore if you need something from them and the way you get that is by getting them to do it – e.g. deploying your app – you're going to get idle time in your process. Simply because you're getting involved in another team's process.
 
-Now, if you want teams who depend on these shared services to optimize for autonomy, these services should be self-serviced.
+Now, if you want teams who depend on these shared services to optimize for autonomy, these services should be self-serviced. TAW: ...and have an API for automation...!
 
 This way, you'll have turned a _process_ into a _resource_, and resources are much less intrusive and much easier to reuse across teams and projects. Take for instance an internal startup embedded in an established organization. This startup will require different processes to function. By turning the process into a resource you make it easier to reuse the capabilities you might have, and thereby possibly increasing your chances of being innovative as well. [3]
 
@@ -45,7 +46,7 @@ Power vs. competence
 
 Having a short lead time alone isn't enough if your backlog is half garbage. Who among us haven't experienced product owners, architects or steering committees meddling in affairs of which they know little?
 
-People inside the team are exposed to most of the feedbackloops related to the development of the product or service. Seems natural doesn't it? Those who work with something on a daily basis know more about it than those who doesn't and are more fit in making the right decisions because of their knowledge than people outside the team who doesn't see the whole picture.
+People inside the team are exposed to most of the feedback loops related to the development of the product or service. Seems natural doesn't it? Those who work with something on a daily basis know more about it than those who doesn't and are more fit in making the right decisions because of their knowledge than people outside the team who doesn't see the whole picture.
 
 ![Bad feedbackloops](img/bad-feedbackloops.png)
 
